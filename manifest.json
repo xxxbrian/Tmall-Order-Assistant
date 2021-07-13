@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Tmall Order Assistant",
+  "version": "0.1",
+  "description": "Time accuracy has been improved",
+  "browser_action": {
+    "default_icon": "tmall.png",
+    "default_title": "Order Assistant",
+		"default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chaoshi.detail.tmall.com/*","https://cart.tmall.com/*","https://buy.tmall.com/*"],
+      "js": ["jquery3.5.1.js","gettime.js","order.js"],
+	  "run_at": "document_idle"
+    }
+  ]
+}
