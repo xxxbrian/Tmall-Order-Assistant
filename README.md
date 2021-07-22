@@ -8,6 +8,6 @@
 ## 安装Chrome插件
 [New Releases](https://github.com/xxxbrian/Tmall-Order-Assistant/releases)
 
-# 抢票方法
+## Usage
 1. 通过手机端将天猫超市端的茅台加入购物车，等待插件自动运行。
 2. 插件自动运行后，时间到了后，看看是否订单里面有付款项，有的话就说抢票成功，没有则是没中。
